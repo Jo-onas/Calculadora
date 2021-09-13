@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(159, 49, 209);
+}
+
+.calculadora{
+    position: relative;
+    display: grid;
+}
+
+.calculadora .value {
+    grid-column: span 4;
+    display: flex;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 50px;
+    font-size: 30px;
+  
+}
+
+.calculadora span{
+    display: grid;
+    padding:  0 100px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background: royalblue;
+    place-items: center;
+    border:1px (0,0,0,.1);
+
+}
+
+
