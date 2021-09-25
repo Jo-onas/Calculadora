@@ -9,10 +9,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(159, 49, 209);
+    background: url(https://i.pinimg.com/originals/3e/36/8f/3e368fef38b67dc9045db41da981dd4e.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .calculadora{
+    margin: 5px;
     position: relative;
     display: grid;
 }
@@ -40,4 +44,52 @@ body {
 
 }
 
+
+.calculadora span.numero:hover{
+    background-color: rgb(87, 146, 255)
+}
+
+.calculadora span.numero:active{
+    background-color: rgb(110, 132, 172)
+}
+
+
+.calculadora span.igual {
+    background-color: rgb(76, 187, 61);
+}
+
+.calculadora span.igual:hover{
+    background-color: rgb(69, 255, 44);
+}
+
+.calculadora span.igual:active{
+    background-color: rgb(41, 158, 25);
+}
+
+
+.calculadora span.delete {
+    background-color: darkred;
+}
+
+.calculadora span.delete:hover{
+    background-color: rgb(201, 0, 0);
+}
+
+.calculadora span.delete:active{
+    background-color: rgb(131, 1, 1);
+}
+
+
+
+.calculadora span.soma, span.menos, span.dividir, span.vezes{
+    background-color: rgb(30, 146, 175);
+}
+
+.calculadora span.soma:hover, span.menos:hover, span.dividir:hover, span.vezes:hover{
+    background-color: rgb(38, 212, 255);
+}
+
+.calculadora span.soma:active, span.menos:active, span.dividir:active, span.vezes:active{
+    background-color: rgb(102, 161, 175);
+}
 
